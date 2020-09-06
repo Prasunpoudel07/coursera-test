@@ -2,13 +2,11 @@
 * {
   box-sizing: border-box;
 }
-
 body{
 	margin: 0;
 	padding: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
 h1 {
   margin-bottom: 10px;
   text-align: center;
@@ -16,8 +14,6 @@ h1 {
   font-size: 200%;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-
 .box{
   width: 100%;
   overflow: none;
@@ -39,7 +35,6 @@ h1 {
   font-weight: bold;
   position: relative;
 }
-
 .content{
   width: 90%;
   height: 200px;
@@ -51,11 +46,9 @@ h1 {
   padding-top: 40px;
   background-color: gray;
 }
-
 .name1{
   background-color: red;
 }
-
 .name2{
   color: white;
   background-color: blue;
@@ -63,12 +56,10 @@ h1 {
 .name3{
   background-color: yellow;
 }
-
 .row{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
@@ -91,7 +82,6 @@ h1 {
     width: auto;
   }
 }
-
 @media (max-width: 767px) {
   .col-xl-12 {
   	float: left;
